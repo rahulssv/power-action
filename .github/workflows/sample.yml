@@ -11,3 +11,4 @@ jobs:
         run: |
           uname -a
           arch 
+          ls -lha
