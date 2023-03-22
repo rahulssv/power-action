@@ -14,3 +14,4 @@ jobs:
           ls -lha
           hostname
           free -h
+          echo "test"
