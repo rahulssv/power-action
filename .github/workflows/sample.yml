@@ -12,3 +12,4 @@ jobs:
           uname -a
           arch 
           ls -lha
+          hostname
