@@ -13,3 +13,4 @@ jobs:
           arch 
           ls -lha
           hostname
+          free -h
