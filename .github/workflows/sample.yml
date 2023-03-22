@@ -1,4 +1,4 @@
-name: Sample GHA Workflow
+name: Sample GHA Workflow for PPC 
 
 on: [ workflow_dispatch, push ]
 
