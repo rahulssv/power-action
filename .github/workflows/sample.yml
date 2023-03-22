@@ -1,0 +1,13 @@
+name: Sample Workflow
+
+on: [ workflow_dispatch, push ]
+
+jobs:
+  power_job:
+    name: Power Job
+    runs-on: ubuntu-latest-ppc64le
+    steps:
+      - name: Run commands
+        run: |
+          uname -a
+          arch 
