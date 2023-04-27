@@ -5,15 +5,16 @@ on: [ workflow_dispatch, push ]
 jobs:
   power_job:
     name: Power Job
-    runs-on: ubuntu-latest-ppc64le
+    runs-on: ubuntu-20.04-ppc64le
     steps:
       - name: Run commands
         run: |
           uname -a
-          arch 
+          arch
+          ping -c3 2606:4700::6810:1023
   check-bats-version:
     name: check-actions
-    runs-on: ubuntu-latest-ppc64le
+    runs-on: ubuntu-20.04-ppc64le
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
