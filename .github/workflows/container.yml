@@ -1,17 +1,17 @@
-name: CI
+# name: CI
 
-jobs:
-  container-test-job:
-    runs-on: ubuntu-latest-ppc64le
-    container:
-      image: node:latest
-      env:
-        NODE_ENV: development
-      ports:
-        - 80
-      volumes:
-        - my_docker_volume:/volume_mount
-      options: --cpus 1
-    steps:
-      - name: Check for dockerenv file
-        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
+# jobs:
+#   container-test-job:
+#     runs-on: ubuntu-latest-ppc64le
+#     container:
+#       image: node:latest
+#       env:
+#         NODE_ENV: development
+#       ports:
+#         - 80
+#       volumes:
+#         - my_docker_volume:/volume_mount
+#       options: --cpus 1
+#     steps:
+#       - name: Check for dockerenv file
+#         run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
