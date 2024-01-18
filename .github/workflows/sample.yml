@@ -4,7 +4,7 @@ on: [ workflow_dispatch, push ]
 
 jobs:
   power_job:
-      name: AMD Job
+    name: AMD Job
     runs-on: ubuntu-latest
     steps:
       - name: Run commands
