@@ -12,7 +12,7 @@ jobs:
           uname -a
           arch
           # ping -c3 2606:4700::6810:1023
-          go --version
+          go version
           
           
   # power_job-1:
