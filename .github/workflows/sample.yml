@@ -12,8 +12,7 @@ jobs:
           uname -a
           arch
           # ping -c3 2606:4700::6810:1023
-          sudo apt-get install terminator -y
-          apt-get install gfortran -y
+          go --version
           
           
   # power_job-1:
