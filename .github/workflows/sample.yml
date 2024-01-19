@@ -13,6 +13,7 @@ jobs:
           arch
           # ping -c3 2606:4700::6810:1023
           go version
+          dotnet --info
           
           
   # power_job-1:
