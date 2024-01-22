@@ -3,17 +3,17 @@ name: Sample GHA Workflow for PPC
 on: [ workflow_dispatch, push ]
 
 jobs:
-  amd_job:
-    name: AMD Job
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run commands
-        run: |
-          uname -a
-          arch
-          # ping -c3 2606:4700::6810:1023
-          go version
-          dotnet --info
+  # amd_job:
+  #   name: AMD Job
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Run commands
+  #       run: |
+  #         uname -a
+  #         arch
+  #         # ping -c3 2606:4700::6810:1023
+  #         go version
+  #         dotnet --info
           
           
   power_job:
