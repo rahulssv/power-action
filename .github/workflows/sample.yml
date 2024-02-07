@@ -12,8 +12,10 @@ jobs:
           uname -a
           arch
           # ping -c3 2606:4700::6810:1023
+          groups
           id
-          docker version
+          whoami
+          
           
           
   power_job:
@@ -24,7 +26,9 @@ jobs:
         run: |
           uname -a
           arch
+          groups
           id
+          whoami
           
   
   # power_job-2:
