@@ -20,7 +20,7 @@ jobs:
           
   power_job:
     name: Power Job
-    runs-on: ubuntu-22.04-ppc64le
+    runs-on: ubuntu-latest-ppc64le
     steps:
       - name: Run commands
         run: |
