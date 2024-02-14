@@ -18,17 +18,17 @@ jobs:
           
           
           
-  power_job:
-    name: Power Job
-    runs-on: ubuntu-latest-ppc64le
-    steps:
-      - name: Run commands
-        run: |
-          uname -a
-          arch
-          groups
-          id
-          whoami
+  # power_job:
+  #   name: Power Job
+  #   runs-on: ubuntu-22.04-ppc64le
+  #   steps:
+  #     - name: Run commands
+  #       run: |
+  #         uname -a
+  #         arch
+  #         groups
+  #         id
+  #         whoami
           
   
   # power_job-2:
@@ -41,14 +41,14 @@ jobs:
   #         arch
   #         ping -c3 2606:4700::6810:1023
           
-  # power_job-3:
-  #   name: Power Job-3
-  #   runs-on: ubuntu-20.04-ppc64le
-  #   steps:
-  #     - name: Run commands
-  #       run: |
-  #         uname -a
-  #         arch
-  #         ping -c3 2606:4700::6810:1023
+  power_job-3:
+    name: Power Job-3
+    runs-on: ubuntu-20.04-ppc64le
+    steps:
+      - name: Run commands
+        run: |
+          uname -a
+          arch
+          ping -c3 2606:4700::6810:1023
           
   
